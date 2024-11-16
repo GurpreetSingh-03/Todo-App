@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { TodoContextdata } from './store/Store'
 import { useContext } from 'react'
 function ToDoList() {
@@ -11,6 +11,7 @@ function ToDoList() {
                     <div className="List">
                         <li id={index} key={index}>{item}</li>
                         <p><i class="fa-solid fa-trash" onClick={() => DeleteItems(index)}></i></p>
+                
                     </div>
                 </>
 
