@@ -5,6 +5,8 @@ import Logo from './Logo';
 import Input from './Input';
 import Button from './Button';
 import ToDoList from './ToDoList';
+import './app.css';
+
 function App() {
   const { Error} = useContext(TodoContextdata);
 
@@ -14,7 +16,6 @@ function App() {
       <div className="content">
         <Logo/>
         <Input/>
-        <Button/>
         <p style={{color: 'red'}}>{Error}</p>
         <ol>
           
