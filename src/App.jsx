@@ -16,7 +16,7 @@ function App() {
       <div className="content">
         <Logo/>
         <Input/>
-        <p style={{color: 'red'}}>{Error}</p>
+        <p className='alert' style={{color: 'red'}}>{Error}</p>
         <ol>
           
         <ToDoList/>

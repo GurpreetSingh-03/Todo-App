@@ -16,12 +16,14 @@
   height: 100vh;
 }
 
-.content{
+.content {
   border: 1px solid;
   border-radius: 5px;
   height: 400px;
   width: 400px;
   overflow: hidden;
+  background-color: #00B9B9;
+  color: #fff;
 }
 
 .content h1 {
@@ -40,8 +42,10 @@
   height: 34px;
   margin-left: 17px;
   width: 34px;
+  background-color: #04e6e6;
+  border: none;
+  border-radius: 5px;
 }
-
 .input {
 width: 100%;
 }
@@ -67,4 +71,23 @@ width: 100%;
 
 .content ol {
   margin-top: 14px;
+}
+
+.List p {
+  display: flex;
+  align-items: center;
+  margin-left: 21px;
+}
+
+.List p i {
+  font-size: 1.35rem;
+  color: #f61616;
+}
+
+.List p i:hover {
+  font-size: 1.40rem;
+}
+
+.alert {
+  margin-left: 41px;
 }
